@@ -4,7 +4,6 @@ from tabulate import tabulate
 
 
 def display_cars_table(title, car_list):
-    """Помощна функция за принтиране на коли в таблица."""
     print(f"\n=== {title.upper()} ===")
     if not car_list:
         print("Няма намерени коли по тези критерии.")
